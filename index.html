@@ -527,6 +527,7 @@ function dr(){x.clearRect(0,0,c.width,c.height);
     x.beginPath();x.fillStyle=`rgba(${p.c},${.35+Math.random()*.3})`;
     x.fillRect(p.x,p.y,p.r,p.r)}requestAnimationFrame(dr)}
 rs();dr();addEventListener('resize',rs);
-</script>
+</script> 
+<script>fetch("/api/visita")</script>
 </body>
 </html>
